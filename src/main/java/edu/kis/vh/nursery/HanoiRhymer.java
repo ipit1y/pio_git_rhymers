@@ -8,6 +8,7 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
         return totalRejected;
     }
 
+    @Override
     public void push(int in) {
         if (!isEmpty() && in > peek())
             totalRejected++;
