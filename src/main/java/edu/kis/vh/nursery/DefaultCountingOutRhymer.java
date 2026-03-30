@@ -27,7 +27,7 @@ public class DefaultCountingOutRhymer {
     }
     
     public boolean isFull() {
-        return total == MAX_SIZE-EMPTY;
+        return total == MAX_SIZE+EMPTY;
     }
 
     protected int peek() {
