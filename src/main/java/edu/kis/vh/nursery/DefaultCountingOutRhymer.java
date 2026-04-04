@@ -18,6 +18,7 @@ public class DefaultCountingOutRhymer {
         return total == EMPTY;
     }
 
+    // TODO: enkapsulacja - zwróć kopię tablicy, a nie referencję do niej
     public int[] getNumbers() {
         return numbers;
     }
